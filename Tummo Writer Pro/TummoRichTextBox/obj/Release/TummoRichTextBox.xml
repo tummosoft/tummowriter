@@ -1,0 +1,205 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TummoRichTextBox
+</name>
+</assembly>
+<members>
+<member name="T:TummoRichTextBox.WordEditor.Format">
+ <summary>
+ Applies character and paragraph formatting to text in a RichTextBox.
+ </summary>
+</member>
+<member name="T:TummoRichTextBox.WordEditor.Format.LineSpacing">
+ <summary>
+ Provides a simple interface to apply appropriate
+ paragraph line spacing to the selected text.
+ </summary>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.LineSpacing.Single">
+ <summary>
+ Single-spaced line spacing between lines of text.
+ </summary>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.LineSpacing.OneAndHalf">
+ <summary>
+ One and one half spaced line spacing between lines of text.
+ </summary>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.LineSpacing.Double">
+ <summary>
+ Double-spaced line spacing between lines of text. 
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.#ctor(System.IntPtr)">
+ <summary>
+ Initializes new instance of Format Class, for formatting text
+ in a RichTextBox.
+ </summary>
+ <param name="rtbHandle">The handle to the RichTextbox to edit.</param>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.SelectionFontName">
+ <summary>
+ Sets the selected text font face to
+ the specified font name.
+ </summary>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.SelectionFontSize">
+ <summary>
+ Sets the selected text font size to
+ the specified size.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.SetSelectionFontStyle(System.Drawing.FontStyle,System.Boolean)">
+ <summary>
+ Adds (or removes) the specified font style
+ to the selected text.
+ </summary>
+ <param name="fs"></param>
+ <param name="AddStyle"></param>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.SetSelectionLineSpacing(System.Byte)">
+ <summary>
+ Sets vertical line spacing between lines
+ of text, for the current text selection.
+ </summary>
+ <param name="spacing">Set to one of the bLineSpacingRule (BL_) constants,
+ such as "BL_SINGLE_LINE_SPACING".</param>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.GetSelectionLineSpacing">
+ <summary>
+ Gets the existing vertical line spacing between
+ lines of text, for the current text selection.
+ </summary>
+</member>
+<member name="P:TummoRichTextBox.WordEditor.Format.SelectionRightIndentTwips">
+ <summary>
+ Gets or sets the right indent value of the
+ selected text, in twips.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.SetSelectionRightIndent(System.Int32)">
+ <summary>
+ Sets the right indent value. Right indent is the
+ distance to indent to the left, from the right
+ margin. The larger the number, the further to
+ the left the text will be indented.
+ </summary>
+ <param name="twipsIndentValue"></param>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.Format.GetSelectionRightIndent">
+ <summary>
+ Returns the rtf formatting right indent value for the
+ selected text, in twips.
+ </summary>
+ <returns>The right indent value in twips.</returns>
+</member>
+<member name="T:TummoRichTextBox.WordEditor.PrintRichText">
+<Summary>
+ Adapted from Martin Muller's article:
+ "Getting WYSIWYG Print Results from a .NET RichTextBox",
+ MSDN, January 2003.
+ http://msdn.microsoft.com/en-us/library/ms996492.aspx
+
+ Print interfaces (PageSetup, PrintPreview, PrintDialog) have been added.
+</Summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.#ctor(TummoRichTextBox.WordEditor.RichTextBoxCustom@,System.Drawing.Printing.PageSettings)">
+ <summary>
+ Prints either the selected rich text, or all
+ the text from a RichTextBox. 
+ </summary>
+ <param name="rtbToPrint">ref The RichTextbox to print from.</param>
+ <param name="pageSet">A Printing PageSettings object, or null.
+ If null is used, then the rich text will be printed using the
+ default page settings. (Portrait, 8.5 x 11, 1 in. margins).
+ </param>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.PageSetupDlg">
+ <summary>
+ Displays a PageSetupDialog to the user.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.PrintPreviewDlg">
+ <summary>
+ Displays a PrintPreview dialog to the user.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.HundredthInchToTwips(System.Int32)">
+ <summary>
+ Convert between 1/100 inch (unit used by the .NET framework)
+ and twips (1/1440 inch, used by Win32 API calls)
+ </summary>
+ <param name="n">Value in 1/100 inch</param>
+ <returns>Value in twips</returns>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.FormatRangeDone">
+ <summary>
+ Free cached data from rich edit control after printing.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.PrintRichText.FormatRangeText(System.Boolean,System.Drawing.Printing.PrintPageEventArgs,System.Int32,System.Int32)">
+ <summary>
+ Calculate or render the contents of our RichTextBox for printing.
+ </summary>
+ <param name="measureOnly">If true, only the calculation is performed,
+ otherwise the text is rendered as well</param>
+ <param name="e">The PrintPageEventArgs object from the
+ PrintPage event</param>
+ <param name="charFrom">Index of first character to be printed</param>
+ <param name="charTo">Index of last character to be printed</param>
+ <returns>(Index of last character that fitted on the
+ page) + 1</returns>
+</member>
+<member name="E:TummoRichTextBox.WordEditor.RichTextBoxCustom.ZoomChanged">
+ <summary>
+ Occurs when the zoom factor changes.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.TwipsConverter.#ctor">
+ <summary>
+ Initializes TwipsConverter class that performs conversions
+ between pixels and twips.
+ </summary>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.TwipsConverter.ConvertHTwipsToPixels(System.Int32)">
+ <summary>
+ Converts Horizontal twips to pixels.
+ </summary>
+ <param name="twips">The twips value to convert.</param>
+ <returns></returns>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.TwipsConverter.ConvertPixelsToHTwips(System.Int32)">
+ <summary>
+ Converts pixels to horizontal twips.
+ </summary>
+ <param name="pixels">the pixel value to convert to horizontal twips.</param>
+ <returns>Returns the horizontal twips value in decimals.</returns>
+</member>
+<member name="M:TummoRichTextBox.WordEditor.TwipsConverter.twipsToPixels(System.Int32,System.Int32)">
+ <summary>
+ Converts Twips to Pixels based on Windows graphic display.
+ </summary>
+ <param name="twips">The twips to convert to pixels.</param>
+ <param name="direction">Zero for horizontal, any other number for vertical.</param>
+ <returns>Returns the pixel value in decimals.</returns>
+</member>
+<member name="T:TummoRichTextBox.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TummoRichTextBox.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TummoRichTextBox.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

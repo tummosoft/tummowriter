@@ -1,0 +1,297 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tummo Writer Pro
+</name>
+</assembly>
+<members>
+<member name="T:Tummo_Writer_Pro.ThisRibbonCollection">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+
+</member>
+<member name="T:Tummo_Writer_Pro.ThisAddIn">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.#ctor(Microsoft.Office.Tools.Word.ApplicationFactory,System.IServiceProvider)">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.Initialize">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.FinishInitialization">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.InitializeDataBindings">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.InitializeCachedData">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.InitializeData">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.BindToData">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.StartCaching(System.String)">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.StopCaching(System.String)">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.IsCached(System.String)">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.BeginInitialization">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.EndInitialization">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.InitializeControls">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.InitializeComponents">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.NeedsFill(System.String)">
+
+</member>
+<member name="M:Tummo_Writer_Pro.ThisAddIn.OnShutdown">
+
+</member>
+<member name="T:Tummo_Writer_Pro.Globals">
+
+</member>
+<member name="M:Tummo_Writer_Pro.Globals.#ctor">
+
+</member>
+<member name="T:Tummo_Writer_Pro.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.About_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.accept_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.agt_action_success">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.book_addresses">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.bookmark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.bookmark_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.books_infront">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.comment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.document_empty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.document_insert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.document_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.document_view_book">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.file_extension_doc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.filter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.filter_advanced">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.folder_explorer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.folder_page">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.home_page_icon__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.insert_element">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.open_folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.photo_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.photos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.project">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.property_import">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.reject">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.run_macros">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.save1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.server_configuration">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.sort_asc_az">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.tab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.tab_content">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.table_excel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.tree_list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.vietnamese">
+<summary>
+  Looks up a localized string similar to 1|Dự án mới
+2|Mở
+3|Lưu
+4|Đóng.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.viewstack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tummo_Writer_Pro.My.Resources.Resources.YouTube_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

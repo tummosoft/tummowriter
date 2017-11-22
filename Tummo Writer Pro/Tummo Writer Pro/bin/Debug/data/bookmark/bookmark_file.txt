@@ -1,0 +1,3 @@
+0|Drive C|C:\
+1|Drive D|D:\
+0|Drive E|E:\

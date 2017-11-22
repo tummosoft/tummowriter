@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <root id="0" tittle="Tittle Documents" author="Author Documents" cover="picture.png" />
+  <folder id="1" tittle="New Documents" />
+  <document folderid="1" id="3" tittle="Chapter 1" file="1.docx" /> 
+  <document folderid="1" id="5" tittle="Chapter 3" file="2.docx" />
+  <folder id="2" tittle="Notes" />
+  <document folderid="2" id="6" tittle="Note 1" file="3.docx" />
+  <document folderid="2" id="7" tittle="Note 2" file="4.docx" />  
+</project>
