@@ -25,6 +25,11 @@ With Tummo Writer, you manage and write each piece of your long writing projects
 - Drag and drop of chapters, scenes, characters, items and locations.
 - Automatic chapter renumbering.
 
+# DOWNLOAD
+
+- Version 1.0.2
+https://github.com/tummosoft/tummowriter/blob/master/Setup_TummoWriter_101.exe
+
 # DEMO VIDEO
 
 https://youtu.be/uAakLsmKebs
