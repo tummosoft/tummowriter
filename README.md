@@ -35,7 +35,14 @@ https://github.com/tummosoft/tummowriter/blob/master/Setup_TummoWriter_101.exe
 https://youtu.be/uAakLsmKebs
 
 # SCREENSHOT
+![](https://preview.ibb.co/bQkg7m/giao_dien_1.png)
 
-https://preview.ibb.co/bQkg7m/giao_dien_1.png
+![](https://preview.ibb.co/hBR4Sm/giao_dien_3.png)
 
-https://preview.ibb.co/hBR4Sm/giao_dien_3.png
+# Troubleshooting
+
+If you have any problems running Tummo Dictionary Maker, please see most common issues.
+
+# License
+
+Calypso is licensed under GNU General Public License v2 (or later).
