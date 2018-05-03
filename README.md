@@ -1,10 +1,10 @@
 # TUMMO WRITER PRO
 
-Tummo Writer is an outliner that's seamlessly integrated with MS Word, it turns MS Word into an all-in-one writing software for long or complex writing projects.
+<a href="https://www.tummosoftware.com/2017/02/tummo-writer.html" targer=“_blank” class="button"><span>Tummo Writer</span></a> is an outliner that's seamlessly integrated with MS Word, it turns MS Word into an all-in-one writing software for long or complex writing projects.
 
-Turn MS Word into a perfect software tool for writing long texts
+Turn MS Word into <a href="https://www.tummosoftware.com/2017/02/tummo-writer.html" targer=“_blank” class="button"><span>a perfect software tool</span></a> for writing long texts
 
-Tummo Writer Pro is a seamlessly integrated add-in software for Microsoft Word, mainly for creative and professional writers. The most important concept of Tummo Writer is project-based writing.
+<a href="https://www.tummosoftware.com/2017/02/tummo-writer.html" targer=“_blank” class="button"><span>Tummo Writer Pro</span></a> is a seamlessly integrated add-in software for Microsoft Word, mainly for creative and professional writers. The most important concept of Tummo Writer is project-based writing.
 
 A project in Tummo Writer is a long or complex text that you might work on for days, weeks, or even months, for example, a book (novel, or non-fiction), a research paper, a serious of columns, a personal diary, or even a note book.
 
@@ -24,6 +24,7 @@ With Tummo Writer, you manage and write each piece of your long writing projects
 - Re-order scenes within chapters.
 - Drag and drop of chapters, scenes, characters, items and locations.
 - Automatic chapter renumbering.
+- <a href="https://www.tummosoftware.com/2017/02/tummo-writer.html" targer=“_blank” class="button"><span>Novel writting software</span></a>
 
 # DOWNLOAD
 
